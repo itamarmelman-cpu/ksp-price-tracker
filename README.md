@@ -47,12 +47,18 @@ git clone [https://github.com/itamarmelman-cpu/ksp-price-tracker.git](https://gi
 cd ksp-price-tracker
 
 
-# It is highly recommended to use a virtual environment (.venv).
+2. Install Dependencies
 
+It is highly recommended to use a virtual environment (.venv).
 pip install -r requirements.txt
 
-# Run the main script to perform the initial data collection and populate the database:
+
+3. Initialize the Database (Scraping)
+
+Run the main script to perform the initial data collection and populate the database (ksp_prices.db):
 python main.py
 
-# Start the interactive dashboard, which will open automatically in your default web browser:
+4. Run the Streamlit Dashboard
+
+Start the interactive dashboard, which will open automatically in your default web browser:
 streamlit run dashboard.py
