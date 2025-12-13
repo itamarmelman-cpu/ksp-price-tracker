@@ -45,3 +45,14 @@ Follow these steps to set up and run the KSP Price Tracker locally:
 ```bash
 git clone [https://github.com/itamarmelman-cpu/ksp-price-tracker.git](https://github.com/itamarmelman-cpu/ksp-price-tracker.git)
 cd ksp-price-tracker
+
+
+# It is highly recommended to use a virtual environment (.venv).
+
+pip install -r requirements.txt
+
+# Run the main script to perform the initial data collection and populate the database:
+python main.py
+
+# Start the interactive dashboard, which will open automatically in your default web browser:
+streamlit run dashboard.py
