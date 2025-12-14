@@ -6,6 +6,12 @@ This project implements a full-stack solution for monitoring hardware prices in 
 
 The primary goal is to provide a comprehensive tool for tracking historical price fluctuations, identifying purchasing opportunities, and analyzing market trends within the consumer electronics sector.
 
+![Alt text describing the image](https://github.com/itamarmelman-cpu/ksp-price-tracker/blob/3d3e59a8ccb0695767cdad499bc99d6498685913/Image%2013-12-2025%20at%2013.55.jpeg
+)
+
+
+
+
 ## Core Technologies
 
 The system is built using the following technologies:
